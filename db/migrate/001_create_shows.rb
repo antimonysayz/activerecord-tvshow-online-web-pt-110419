@@ -1,4 +1,5 @@
 class CreateShows < ActiveRecord::Migration[5.2]
+  
   def change
     create_table do |t|
       t.string :name
@@ -7,4 +8,5 @@ class CreateShows < ActiveRecord::Migration[5.2]
       t.integer :rating
     end
   end
+
 end
