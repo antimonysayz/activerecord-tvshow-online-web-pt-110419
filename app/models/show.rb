@@ -1,3 +1,3 @@
 class Show < ActiveRecord::Base
-  attr_acessor :season
+  attr_accessor :season
 end
